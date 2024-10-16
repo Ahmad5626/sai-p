@@ -3,8 +3,12 @@
     
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     overflow-x: hidden;
+    
 }
 .custom-container{
     max-width: 1300px;
