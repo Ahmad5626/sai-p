@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+       <!-- <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" /> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+ 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+   
+</head>
+
+<body>
+
+    <!-- loading  -->
+     <div class="loading">
+        <div id="load">
+            <div>G</div>
+            <div>N</div>
+            <div>I</div>
+            <div>D</div>
+            <div>A</div>
+            <div>O</div>
+            <div>L</div>
+          </div>
+     </div>
+   
+
+    <header data-aos="fade-down" data-aos-duration="1000" >
+        <div class="custom-container">
+            <nav class="flex justify-between items-center py-5">
+                <div class="logo w-[40%] ">
+                    <img src="img/SaiPlogo.png" width="40%" alt="">
+                </div>
+
+                <div class="menu flex w-[60%] justify-between items-center">
+                    <ul class="flex justify-between items-center gap-10 font-semibold text-xl">
+                        <li class="active hover:text-[#ffbb37]"><a href="">Home</a></li>
+                        <li class=" hover:text-[#ffbb37]"><a href="">About</a></li>
+                        <li class=" hover:text-[#ffbb37]"><a href="">project</a></li>
+                        <li class=" hover:text-[#ffbb37]"><a href="">Contact</a></li>
+                    </ul>
+                    <div class="nav-button ml-10">
+                        <button class="btn bg-[#ffbb37]  px-5 py-2 rounded font-semibold text-xl relative z-10  overflow-hidden border  shadow-2xl transition-all before:absolute before:left-0 before:right-0 before:top-0 before:h-0 before:w-full before:bg-[#163d5c] before:duration-500 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:w-full after:bg-[#163d5c] after:duration-500 hover:text-white hover:shadow-green-900 hover:before:h-2/4 hover:after:h-2/4">
+                             <a class="relative z-10">SCHEDULE A SITE VISIT</a>
+                        </button>
+                    </div>
+                </div>
+
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="custom-container">
+            <div class="hero-section-content flex justify-between items-centernn h-full ">
+                <div class="hero-section-left w-[45%]" data-aos="zoom-in-down" data-aos-duration="1000">
+                    <h1 class="text-5xl font-bold text-[#163d5c] pt-40">
+                        EXPERIENCE
+                        <br>
+                        <span class="text-[#ffbb37]">LUXURY LIVING</span>
+                        AT PRAGATHI SUMEDHA
+                    </h1>
+                    <p class="text-3xl font-normal text-[black] pt-10">HYDERABAD'S
+
+                        MOST
+                        <br>
+                        COVETED RESIDENCES!
+                    </p>
+
+                    <div class="nav-button mt-10">
+                        <button class="btn bg-[#ffbb37]  px-5 py-2 rounded font-semibold text-xl relative z-10  overflow-hidden border  shadow-2xl transition-all before:absolute before:left-0 before:right-0 before:top-0 before:h-0 before:w-full before:bg-[#163d5c] before:duration-500 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:w-full after:bg-[#163d5c] after:duration-500 hover:text-white hover:shadow-green-900 hover:before:h-2/4 hover:after:h-2/4 ">
+                            
+                            <a class="relative z-10"> <i class="fa-solid fa-download px-2 font-semibold"></i>DOWNLOAD BROCHURE </a>
+                        </button>
+                    </div>
+
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+
+    <section class="about-section py-20 " data-aos="fade-up" data-aos-duration="1000">
+        <div class="custom-container2">
+            <div class="about-section-content flex justify-between items-center h-full ">
+                <div class="about-section-left w-[45%]">
+                    <h1 class="text-3xl font-bold text-[#163d5c] pt-10 ">
+                        ABOUT US
+                    </h1>
+
+                    <p class="text-xl py-10">Pragathi sumedha is a complex of trendy homes with all the modern
+                        amenities in the most happening and preferred location of hyderabad
+                        city. Chic in their design,complete in amenities,flawless in
+                        constructions, these homes absolutely match all your fancies of a </p>
+
+                    <button class="btn">
+                        View More
+                    </button>
+
+                </div>
+
+                <div class="about-section-right w-[35%] ">
+                    <img src="img/about-section-img.png" width="100%"  class="rounded" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="project-highlight">
+        <div class="custom-container2">
+            <div class="about-section-content flex justify-end items-center h-full ">
+                <div class="about-section-left w-[80%] flax  items-center bg-[#f6f7ec] h-[700px] relative">
+
+
+
+                    <div class="project-slider-box absolute top-12 -left-40 h-[100%]    w-[50%] " data-aos="fade-right" data-aos-duration="1000">
+                        <div class="swiper mySwiper3 rounded-lg h-[100%]">
+                            <div class="swiper-wrapper h-[100%]">
+                                <div class="swiper-slide w-[100%] h-[100%]">
+                                    <img src="./img/silder1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/slider2.jpeg" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/silder1.png" alt="">
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="./img/silder1.png" alt="">
+                                </div>
+
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="project-slider-box absolute top-10 right-20 h-[90%]   w-[50%] " data-aos="fade-left" data-aos-duration="1000">
+
+                        <div class="project-slider-box1">
+                            <h1 class="text-3xl font-bold text-[#163d5c] ">SALIENT FEATURES</h1>
+                            <p class="text-sm font-semibold py-10">Sai Pragathi Sumedha is well- Planned property in a first-class ,location and
+                                offers excellent connectivty by road to imporatnt destinations.With a wide-laned
+                                high traffic corridor weaving its way to main centres like pocharam, Boduppal,
+                                peerzadiguda, Medipally, Uppal and Yonder,and the NH 163 foci ,adds tho the
+                                lurce of life herein an enchanced tranport scenario .Tinged with a arm sense of
+                                coomunity the propery is only momments to shops , eteries and transport
+                                ,offices of prominent IT majors including Mindspace ,Infosys,in close-by drives
+                                For added measure , internal road transport to the city innards,railway station
+                                access and reachability to NH 163 ,capped by an uninterrupted drive to the
+                                international airport makes the location vibale
+                            </p>
+                        </div>
+                        <h1 class="text-3xl font-bold text-[#163d5c] pt-2">AMENITIES & KEY SPECS</h1>
+                        <div class="project-slider-box2 flex items-center justify-between flex-wrap gap-10  pt-10">
+
+                            <div class="flex  gap-1 w-[25%] ">
+
+                                <div class=""><i class="fa-solid fa-play px-2 text-[#ffbb37] "></i></div>
+                                <p class="font-semibold"> Backup
+                                    Generator</p>
+                            </div>
+
+                            <div class="flex  gap-1 w-[25%] ">
+
+                                <div class=""><i class="fa-solid fa-play px-2 text-[#ffbb37] "></i></div>
+                                <p class="font-semibold"> Children
+                                    play area</p>
+                            </div>
+
+                            <div class="flex  gap-1 w-[25%] ">
+
+                                <div class=""><i class="fa-solid fa-play px-2 text-[#ffbb37] "></i></div>
+                                <p class="font-semibold">Intercom</p>
+                            </div>
+                            <div class="flex  gap-1 w-[25%] ">
+
+                                <div class=""><i class="fa-solid fa-play px-2 text-[#ffbb37] "></i></div>
+                                <p class="font-semibold">Landscaping</p>
+                            </div>
+                            <div class="flex  gap-1 w-[25%] ">
+
+                                <div class=""><i class="fa-solid fa-play px-2 text-[#ffbb37] "></i></div>
+                                <p class="font-semibold"> Multi-level
+                                    car parking</p>
+                            </div>
+                            <div class="flex  gap-1 w-[25%] ">
+
+                                <div class=""><i class="fa-solid fa-play px-2 text-[#ffbb37] "></i></div>
+                                <p class="font-semibold"> 
+                                    Rainwater
+                                 harvesting</p>
+                            </div>
+
+                        </div>
+                        <div class="nav-button mt-10">
+                            <button class="btn bg-[#ffbb37]  px-5 py-2 rounded-lg font-semibold text-xl relative z-10  overflow-hidden border  shadow-2xl transition-all before:absolute before:left-0 before:right-0 before:top-0 before:h-0 before:w-full before:bg-[#163d5c] before:duration-500 after:absolute after:bottom-0 after:left-0 after:right-0 after:h-0 after:w-full after:bg-[#163d5c] after:duration-500 hover:text-white hover:shadow-green-900 hover:before:h-2/4 hover:after:h-2/4 ">
+                                
+                                <a class="relative z-10"> <i class="fa-solid fa-download px-2 font-semibold"></i>DOWNLOAD BROCHURE </a>
+                            </button>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+
+    </section>
+
+
+
+    <section class="SPECIFICATIONS h-[500px]
+    "  data-aos="fade-up" data-aos-duration="1000">
+
+    <div class="custom-container2 h-full">
+        <h1 class="text-4xl font-bold text-[#163d5c] pt-3">SPECIFICATIONS</h1>
+
+      <div class=" h-[80%] SPECIFICATIONS-content">
+        <h3 class="text-2xl pt-10 pb-5 font-semibold">Superframework/Structure:</h3>
+        <p class="text-2xl  w-[80%]">R.C.C framed Structure with anti-termite treatement Foundation
+            Light weight bbricks in cement mortar with plastering inside and outside wiith43 grase cement.</p>
+            <h3 class="text-2xl  w-[80%]pt-10 pb-5 font-semibold">Painting:</h3>
+            <p class="text-2xl  w-[80%]">External: External walls with 2 coats of exterior emulsion paint of ASIAN or equivalent make over a coat of primer.
+                Internal: Smooth finish with putty 2 coats of acrylic emulsion paint of ASIAN or equivalent over a coat of primer .</p>
+                <h3 class="text-2xl  w-[80%]pt-10 pb-5 font-semibold">Kitchen:</h3>
+                <p class="text-2xl  w-[80%]">Kitchen platform in granite and glazed tile dado . Above platform upto 2ft with stainless steel kithchen sink,with muncipal
+                    and bore water connections.</p>
+                    <h3 class="text-2xl  w-[80%]pt-10 pb-5 font-semibold">Superframework/Structure:</h3>
+                    <p class="text-2xl  w-[80%]">R.C.C framed Structure with anti-termite treatement Foundation
+                        Light weight bbricks in cement mortar with plastering inside and outside wiith43 grase cement.</p>
+                        <h3 class="text-2xl  w-[80%]pt-10 pb-5 font-semibold">Superframework/Structure:</h3>
+                        <p class="text-2xl  w-[80%]">R.C.C framed Structure with anti-termite treatement Foundation
+                            Light weight bbricks in cement mortar with plastering inside and outside wiith43 grase cement.</p>
+      </div>
+       
+
+
+    </section>
+
+
+    <section class="gallery bg-[#f6f7ec]" >
+        <div class="custom-container2">
+            <h1 class="text-3xl font-bold text-[#163d5c] pt-10">   Gallery</h1>
+       
+               </div>
+        <div class="custom-container2 py-10">
+
+            <div class="swiper mySwiper  ">
+                <div class="swiper-wrapper ">
+                    <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1000">
+                        <img src="./img/slider3.png" alt="">
+                      </div>
+                  <div class="swiper-slide" data-aos="fade-down" data-aos-duration="1000">
+                    <img src="./img/slider2.jpeg" alt="">
+                  </div>
+                  <div class="swiper-slide" data-aos="fade-right" data-aos-duration="1000">
+                    <img src="./img/slider3.png" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./img/slider2.jpeg" alt="">
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="./img/slider3.png" alt="">
+                  </div>
+                  
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+    </section>
+
+
+
+    <section class="FLOOR PLANS " data-aos="fade-down" data-aos-duration="1000">
+        <div class="custom-container2">
+     <h1 class="text-3xl font-bold text-[#163d5c] pt-10">   FLOOR PLANS</h1>
+
+        </div>
+        <div class="custom-container2 py-10">
+            <div class="swiper mySwiper3 ">
+                <div class="swiper-wrapper h-[100%]">
+                    <div class="swiper-slide ">
+                       <div class="flex justify-between items-center ">
+                        <div class="floor-img w-[50%]">
+                            <img src="./img/map.png" width="100%" alt="">
+                        </div>
+
+                        <div class="floor-content w-[40%]">
+                            <h1 class="text-3xl font-bold text-[#163d5c] pt-10">   GROUND FLOOR
+                            </h1>
+                          
+                            <div class="floor-Spec flex justify-left items-center py-10 flex-wrap gap-10">
+                                <p class="text-xl w-[30%]">Spec 1</p>
+                                <p class="text-xl w-[30%]">Spec 1</p>
+                                <p class="text-xl w-[30%]">Spec 1</p>
+                                <p class="text-xl w-[30%]">Spec 1</p>
+
+                                </div>
+                       </div>
+                    </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="flex justify-between items-center ">
+                            <div class="floor-img w-[50%]">
+                                <img src="./img/map.png" width="100%" alt="">
+                            </div>
+    
+                            <div class="floor-content w-[40%]">
+                                <h1 class="text-3xl font-bold text-[#163d5c] pt-10">   GROUND FLOOR
+                                </h1>
+                              
+                                <div class="floor-Spec flex justify-left items-center py-10 flex-wrap gap-10">
+                                    <p class="text-xl w-[30%]">Spec 1</p>
+                                    <p class="text-xl w-[30%]">Spec 1</p>
+                                    <p class="text-xl w-[30%]">Spec 1</p>
+                                    <p class="text-xl w-[30%]">Spec 1</p>
+    
+                                    </div>
+                           </div>
+                        </div>
+                    </div>
+                   
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>   
+        </div>
+
+    </section>
+
+
+    <section class="LOCATION py-10" data-aos="fade-up" data-aos-duration="1000">
+        <div class="custom-container2">
+            <div class="flex justify-between items-center ">
+                
+
+                <div class="floor-content w-[50%]">
+                    <h1 class="text-3xl font-bold text-[#163d5c] pt-10">  LOCATION HIGHLIGHTS
+                    </h1>
+                  
+                    <div class="floor-Spec flex justify-left items-center py-10 flex-wrap gap-10">
+                        <ul class="p-0">
+                            <li class="font-semibold text-xl py-2"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Anurag Unversity : 6Km,</li>
+                            <li class="font-semibold text-xl py-2"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Infosys Pocharam : 7.8Km</li>
+                            <li class="font-semibold text-xl py-2"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>RBM Multispeciality Hospital : 1.7Km</li>
+                            <li class="font-semibold text-xl py-2"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Uppal Metro Station : 3.3Km 
+                            </li>
+                            <li class="font-semibold text-xl py-2"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Asian Cenemas : 1.5Km</li>
+                            <li class="font-semibold text-xl py-2"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>State Bank of India : 0.4km </li>
+                            <li class="font-semibold text-xl py-2"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>KFC : 0.85Km , Mc D : 3Km , Domino's Pizza : 0.9Km</li>
+
+                        </ul>
+
+                        </div>
+               </div>
+
+               <div class="floor-img w-[45%]">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.3162063787777!2d78.48174107462732!3d17.40226670237741!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99dd055d5e13%3A0x7c9deb3a745b73ad!2sSai%20Datta%20Arcade%2C%203-6-517%2C%20Street%20Number%206%2C%20Sai%20Vihar%2C%20Advocates%20Colony%2C%20Himayatnagar%2C%20Hyderabad%2C%20Telangana%20500029!5e1!3m2!1sen!2sin!4v1729055939944!5m2!1sen!2sin" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+
+            </div>
+    </section>
+
+    <section class="SCHEDULE" data-aos="fade-left" data-aos-duration="1000">
+        <div class="custom-container2">
+            <div class="flex justify-between items-start ">
+                
+
+                <div class="floor-content w-[50%]">
+                    <h1 class="text-5xl font-bold text-[#163d5c] pt-10 px-10">  SCHEDULE <br>
+                        A VISIT
+                    </h1>
+                  
+                   
+               </div>
+
+               <div class="floor-img w-[50%]">
+                <form >
+                    <input type="text " name="name" placeholder="Name*" class="w-full p-4 my-2 text-2xl text-black bg-[#f2f3f5] my-1  ">
+                    <input type="email " name="number" placeholder="Phone Number*" class="w-full p-4 my-2 text-2xl text-black bg-[#f2f3f5] my-1 ">
+                    <input type="text " name="email" placeholder="Email*" class="w-full p-4 my-2 text-2xl text-black bg-[#f2f3f5] my-1  ">
+                  <textarea name="message" id="" cols="10" rows="5" placeholder="Message" class="w-full p-4 my-2 text-2xl text-black bg-[#f2f3f5] my-1  "></textarea>
+                  <div class="text-right">
+          
+                    <button type="submit" class="bg-[#163d5c] display-block w-full text-white font-semibold  py-3 px-8 text-2xl ">BOOK A VISIT</button>
+                  </div>
+          
+                 
+                  
+                  </form>
+            </div>
+            </div>
+
+            </div>
+    </section>
+
+
+    <!-- footer -->
+
+    <section class="footer mt-20">
+        <div class="footer-wrap">
+            <div class="custom-container">
+                <div class="footer-wrapper flex justify-between gap-10" >
+    
+                    <div class="w-1/4">
+                        <div class="footer-logo pb-10">
+                            <img src="./img/SaiPlogo2.png" width="70%" alt="">
+                        </div>
+                        <div class="text-white">
+                            <h6 class="py-2 text-xl ADDRESS ">ADDRESS:</h6>
+                            <p class="py-2 font-normal text-sm">H.No.3-6-517,Flat No.501,
+                                Sai Datta Arcade,Himayathnagar,
+                                Hyderabad-500029.</p>
+                        </div>
+    
+                    </div>
+
+                    <div class="w-1/4">
+                        <h1 class="text-xl font-bold text-white ">  PROJECTS LINKS
+                        </h1>
+                      
+                        <div class="floor-Spec flex justify-left items-center py-4 flex-wrap gap-Y-10">
+                            <ul class="p-0">
+                                <li class="font-normal text-sm py-1 text-white"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Sai Sukha Vistas</li>
+                                <li class="font-normal text-sm py-1 text-white"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Pragathi Heaven</li>
+                                <li class="font-normal text-sm py-1 text-white"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Aakruthi Township</li>
+                                <li class="font-normal text-sm py-1 text-white"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Pragathi Transcon Avenue
+                                </li>
+                                <li class="font-normal text-sm py-1 text-white"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Pragathi Sumedha Residentia</li>
+                                <li class="font-normal text-sm py-1 text-white"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Pragathi Sumedha Commercial </li>
+                                
+    
+                            </ul>
+    
+                            </div>
+
+                    </div>
+
+
+
+                    <div class="w-1/4">
+                        <h1 class="text-xl font-bold text-white ">  PROJECTS LINKS
+                        </h1>
+                      
+                        <div class="floor-Spec flex justify-left items-center py-4 flex-wrap gap-Y-10">
+                            <ul class="p-0">
+                                <li class="font-normal text-sm py-1 text-white"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Sai Sukha Vistas</li>
+                                <li class="font-normal text-sm py-1 text-white"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Pragathi Heaven</li>
+                                <li class="font-normal text-sm py-1 text-white"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Aakruthi Township</li>
+                                <li class="font-normal text-sm py-1 text-white"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Pragathi Transcon Avenue
+                                </li>
+                                <li class="font-normal text-sm py-1 text-white"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Pragathi Sumedha Residentia</li>
+                                <li class="font-normal text-sm py-1 text-white"><i class="fa-solid fa-play px-4 text-[#ffbb37] "></i>Pragathi Sumedha Commercial </li>
+                                
+    
+                            </ul>
+    
+                            </div>
+                        </div>
+
+                        <div class="w-1/4">
+                            <h1 class="text-3xl font-bold text-white  pt-10 pb-5">  FOR ENQUIRIES
+
+                                <h6 class="py-2 text-xl text-white font-normal  ">Call: +91-9542300666</h6>
+                                <h6 class="py-1 text-xl  text-white ">Email: info@saipragathi.i</h6>
+                            </h1>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="custom-container text-center pt-10 text-white Copyright">
+                <p>Copyright © 2024 | Sai Pragathi | All Rights Reserved</p>
+            </div>
+
+        </div>
+        
+
+    </section>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+        integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="path-to-the-file/splide.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper3", {
+            autoHeight: true,
+            spaceBetween: 20,
+            dynamicBullets: false,
+            clickable: false,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+
+            pagination: false,
+            breakpoints: {
+                "@0.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 10,
+                },
+                "@0.75": {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                "@1.00": {
+                    slidesPerView: 1,
+                    spaceBetween: 40,
+                },
+                "@1.50": {
+                    slidesPerView: 1,
+                    spaceBetween: 50,
+                },
+            },
+        });
+
+        var swiper = new Swiper(".mySwiper", {
+          autoHeight: true,
+          spaceBetween: 20,
+          dynamicBullets: false,
+          clickable: false,
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+
+          pagination:false,
+          breakpoints: {
+            "@0.00": {
+              slidesPerView: 1,
+              spaceBetween: 10,
+            },
+            "@0.75": {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            "@1.00": {
+              slidesPerView: 3,
+              spaceBetween: 40,
+            },
+            "@1.50": {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          },
+        });
+
+
+        $(document).ready(function(){
+	$(window).on('load',function(){
+		$(".loading").fadeOut('1');
+ 	});
+});
+       
+    </script>
+    <script>
+        AOS.init();
+      </script>
+    
+</body>
+
+</html>
