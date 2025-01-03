@@ -19,11 +19,39 @@ body{
     max-width: 1200px;
     margin: 0 auto; 
 }
+@media (max-width: 768px) {
+    .custom-container2 {
+      padding: 0 40px;
+    }
+    .custom-container{
+        padding: 0 40px;
+    }
+}
 .hero-section {
-background-image: url(img/Asset.png);
+background-image: url(img/home1.webp);
 height: 600px;
 background-size: cover;
 }
+.hero-section-sai-sukha{
+    background-image: url(./sai_sukha_imgs/banner-img-1.jpg);
+    height: 600px;
+    background-size: cover;
+    }
+    .hero-section-pragathi-heaven{
+        background-image: url(./pragathi-heaven-img/pragathi-heaven-banner.jpg);
+        height: 600px;
+        background-size: cover;
+    }
+    .hero-section-sai-aakruthi{
+        background-image: url(./Sai-aakruthi-townships-img/saisukha-banner.jpg);
+        height: 600px;
+        background-size: cover;
+    }
+    .hero-section-Sai-Pragathi-Avenue{
+        background-image: url(./Sai-Pragathi-Avenue-img/Sai-Pragathi-Avenue-banner.jpg);
+        height: 600px;
+        background-size: cover;
+    }
 .hero-section-left h1{
     letter-spacing: 3px;
 }
@@ -53,16 +81,25 @@ background-size: cover;
     height: 600px !important;
     object-fit: cover;
 }
+
 .mySwiper div img{
    border-radius: 20px;
    height: 300px !important;
 object-fit: cover;
+width: 100%;
 
+}
+@media (max-width: 768px) {
+    .mySwiper div img{
+        width: 100%;
+        height: 150px !important;
+        object-fit: cover;
+    }
 }
 
 /* footer */
 .footer{
-    background-image: url(./img/slider2.jpeg);
+    background-image: url(./img/home1.webp);
     background-size: cover;
     background-repeat: no-repeat;
    
@@ -300,3 +337,65 @@ object-fit: cover;
     display: flex;
     justify-content: center;
   }
+
+  .barside {
+    display: block;
+    width: 60%;
+    position: fixed;
+    background-color: white;
+    border-right: 1px solid #b5b5b5;
+    height: 100vh;
+    top: 0;
+    left: -100%;
+    z-index: 99978676876;
+    transition: 0.5s;
+    padding: 20px 0px;
+
+}
+.timeing{
+  font-size: 20px;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+
+.barside ul{
+list-style:none;
+padding: 0px;
+}
+.barside ul li{
+    padding: 10px 20px;
+}
+.barside ul li:hover{
+    background-color: #015C88;
+    color: white;
+}
+/* .barside ul li:hover a{
+    color: white;
+} */
+.barside ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 5px 0px;
+
+}
+@media(max-width:768px) {
+    .box1 img {
+        height: 310px;
+        object-fit: cover;
+    }
+    .barside1 {
+      left: 0px;
+      transition: 0.5s;
+  }
+    .logo img {
+        width: 100%;
+    }
+
+    .bar i {
+        font-size: 26px;
+        margin-left: 5px;
+    }
+}
